@@ -8,7 +8,7 @@ body {
     background: #222;
 }
 .card{
-    width: 90px;
+    width: 900px;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
@@ -34,4 +34,16 @@ body {
     flex: 1;
     margin-right:16px;
     font-size:18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search img {
+    width: 16px;
 }
